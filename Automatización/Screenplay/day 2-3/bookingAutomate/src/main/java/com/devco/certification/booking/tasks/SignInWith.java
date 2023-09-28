@@ -12,6 +12,9 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
+/**
+ * Esta clase representa una tarea en la que un actor inicia sesión en Booking.com con un usuario y contraseña.
+ */
 public class SignInWith implements Task {
 
     private UserModel userModel;
@@ -21,7 +24,7 @@ public class SignInWith implements Task {
     }
 
     @Override
-    @Step("{0} Login on Booking.com")
+    @Step("{0} Inicia sesión en Booking.com")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Enter.theValue(userModel.getUsername()).into(LoginPage.USERNAME),
@@ -33,6 +36,12 @@ public class SignInWith implements Task {
         );
     }
 
+    /**
+     * Método estático que proporciona una instancia de esta tarea para su uso en las interacciones del actor.
+     *
+     * @param userModel El modelo de usuario que contiene las credenciales de inicio de sesión.
+     * @return Una instancia de la tarea SignInWith.
+     */
     public static SignInWith access(UserModel userModel) {
         return instrumented(SignInWith.class, userModel);
     }

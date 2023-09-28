@@ -1,0 +1,40 @@
+/**
+ * Este archivo de configuración de Gradle se utiliza para definir cómo se construye y prueba nuestro proyecto.
+ * autores  Luis Ruiz y Christopher Paez.
+ */
+
+// Usamos el plugin 'java' para obtener funcionalidades para proyectos Java
+plugins {
+    id 'java'
+}
+
+// Especificamos que nuestro código fuente está escrito en Java 11
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+// Definimos de dónde Gradle puede descargar las dependencias de nuestro proyecto
+repositories {
+    mavenCentral()
+}
+
+// Aquí definimos las dependencias de nuestro proyecto
+dependencies {
+    // JUnit 4.13.1 es nuestra biblioteca de pruebas unitarias
+    implementation 'junit:junit:4.13.1'
+    // Selenium WebDriver 4.6.0 nos permite automatizar la interacción con un navegador web
+    implementation 'org.seleniumhq.selenium:selenium-java:4.6.0'
+}
+
+// Aquí definimos las dependencias específicas para nuestras pruebas
+dependencies {
+    // JUnit Jupiter API 5.8.2 nos proporciona las anotaciones y clases necesarias para escribir pruebas en JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    // JUnit Jupiter Engine 5.8.2 es el motor que permite a JUnit 5 ejecutar nuestras pruebas
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+// Esta sección configura cómo se ejecutan nuestras pruebas
+test {
+    // Le decimos a Gradle que use la plataforma JUnit para ejecutar nuestras pruebas
+    useJUnitPlatform()
+}

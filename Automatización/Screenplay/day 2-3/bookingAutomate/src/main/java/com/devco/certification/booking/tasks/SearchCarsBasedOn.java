@@ -1,6 +1,5 @@
 package com.devco.certification.booking.tasks;
 
-
 import com.devco.certification.booking.models.CarsModel;
 import com.devco.certification.booking.userinterfaces.CarSearchPage;
 import net.serenitybdd.screenplay.Actor;
@@ -13,6 +12,9 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
+/**
+ * Esta clase representa una tarea en la que un actor ingresa las preferencias de búsqueda de autos en Booking.com.
+ */
 public class SearchCarsBasedOn implements Task {
 
     private CarsModel carsModel;
@@ -22,16 +24,24 @@ public class SearchCarsBasedOn implements Task {
     }
 
     @Override
-    @Step("{0} Enters car preferences")
+    @Step("{0} Ingresa las preferencias de auto")
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue(carsModel.getLoc()).into(CarSearchPage.PICKUP),
+        actor.attemptsTo(
+                Enter.theValue(carsModel.getLoc()).into(CarSearchPage.PICKUP),
                 WaitUntil.the(CarSearchPage.PICKUP_SLC, isVisible()).forNoMoreThan(5).seconds(),
                 Click.on(CarSearchPage.PICKUP_SLC),
                 Click.on(CarSearchPage.DATE_PICK),
                 Click.on(CarSearchPage.F_DATE),
-                Click.on(CarSearchPage.SEARCH_BTN));
+                Click.on(CarSearchPage.SEARCH_BTN)
+        );
     }
 
+    /**
+     * Método estático que proporciona una instancia de esta tarea para su uso en las interacciones del actor.
+     *
+     * @param carsModel El modelo de autos que contiene las preferencias de búsqueda.
+     * @return Una instancia de la tarea SearchCarsBasedOn.
+     */
     public static SearchCarsBasedOn user(CarsModel carsModel){
         return instrumented(SearchCarsBasedOn.class, carsModel);
     }

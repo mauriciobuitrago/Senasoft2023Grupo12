@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50758b7e-0f4f-49f6-a041-e04523eda9fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/day 2-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BookingAutomation-mainTRUE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/ActivityName.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/ActivityName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/BookingVisiblePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/BookingVisiblePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/BotAlertMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/BotAlertMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/IsPopBadVisible.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/IsPopBadVisible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/LoginCaptchaMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/RegisterCaptchaMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/SearchingCabsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/questions/SearchingCabsScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/ChooseAttraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/ChooseAttraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/CreateAnAccountWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/CreateAnAccountWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoAttractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoAttractions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoCabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoCabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/GetIntoSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/OpenTheBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/OpenTheBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SearchAttractionsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SearchAttractionsWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SearchCabsWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SearchCabsWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SearchCarsBasedOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SearchCarsBasedOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SelectFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SelectFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/ShowSelectedAttraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/ShowSelectedAttraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SignInWith.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/SignInWith.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/AttractionsResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/AttractionsResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/AttractionsSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/AttractionsSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/BookingHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/BookingHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/CabSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/CabSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/CarSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/CarSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/InterruptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/InterruptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/userinterfaces/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/test/java/com/devco/certification/booking/stepdefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/test/java/com/devco/certification/booking/stepdefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookingAutomate/src/test/java/com/devco/certification/booking/stepdefinitions/RegisterStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookingAutomate/src/test/java/com/devco/certification/booking/stepdefinitions/RegisterStepDefinitions.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/bookingAutomate">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2W1yl7Cf8i3t7oHGs5wmzX8TYbZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="LoginRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/bookingAutomate" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.devco.certification.booking.runners.LoginRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.LoginRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50758b7e-0f4f-49f6-a041-e04523eda9fe" name="Changes" comment="" />
+      <created>1695914530420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695914530420</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bookingAutomate/src/main/java/com/devco/certification/booking/tasks/OpenTheBrowser.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

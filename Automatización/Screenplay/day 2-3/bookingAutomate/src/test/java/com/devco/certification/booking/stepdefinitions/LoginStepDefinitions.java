@@ -8,7 +8,6 @@ package com.devco.certification.booking.stepdefinitions;
  */
 
 import com.devco.certification.booking.models.UserModel;
-import com.devco.certification.booking.questions.LoginCaptchaMessage;
 import com.devco.certification.booking.tasks.GetIntoSign;
 import com.devco.certification.booking.tasks.OpenTheBrowser;
 import com.devco.certification.booking.tasks.SignInWith;

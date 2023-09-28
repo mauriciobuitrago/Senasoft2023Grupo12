@@ -1,11 +1,14 @@
 package com.devco.certification.booking.questions;
 
+
 import com.devco.certification.booking.userinterfaces.SelectedAttractionPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
-
+        /** GitHub de Luis Ruiz: https://github.com/riplui5
+        * GitHub de Christopher Paez: https://github.com/CHRISTOPHERP43Z
+        */
 /**
  * Clase que verifica si el nombre de la actividad está visible en la página de atracción seleccionada.
  */

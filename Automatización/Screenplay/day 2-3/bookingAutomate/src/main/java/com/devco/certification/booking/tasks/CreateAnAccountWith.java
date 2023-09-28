@@ -13,6 +13,9 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
+/**
+ * Esta clase representa una tarea en la que un actor crea una cuenta en Booking.com con las credenciales proporcionadas.
+ */
 public class CreateAnAccountWith implements Task {
 
     private UserModel userModel;
@@ -22,7 +25,7 @@ public class CreateAnAccountWith implements Task {
     }
 
     @Override
-    @Step("{0} Create an account")
+    @Step("{0} Crea una cuenta")
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Enter.theValue(userModel.getUsername()).into(RegisterPage.USERNAME),
@@ -35,6 +38,12 @@ public class CreateAnAccountWith implements Task {
         );
     }
 
+    /**
+     * Método estático que proporciona una instancia de esta tarea para su uso en las interacciones del actor.
+     *
+     * @param userModel El modelo de usuario que contiene las credenciales para crear la cuenta.
+     * @return Una instancia de la tarea CreateAnAccountWith.
+     */
     public static CreateAnAccountWith credentials(UserModel userModel) {
         return instrumented(CreateAnAccountWith.class, userModel);
     }
